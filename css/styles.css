@@ -203,7 +203,7 @@ footer {
 	background-color: black;
 	font-family: 'Josefin Slab', serif;
 	letter-spacing: 2px;
-
+}
 /******************
    Employee Page
 ******************/
@@ -269,3 +269,34 @@ footer {
     width: 100%;
 }
 
+/******************
+     products
+******************/
+#watches {
+    border: 2px solid #d6c598;
+    border-radius: 30px;
+    margin-top: 2%;
+    background-color: Black;
+    color: #d6c598;
+    font-family: 'Josefin Slab', serif;
+}
+#watches li {
+    margin: 2%;
+    display: flex;
+    flex-flow: column;
+    background-color: Black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px;
+    max-width: 80%;
+    font-size: 1.1em;
+    color: rgba(236, 236, 236, .7);
+}
+#watches img {
+    margin: 40px auto 0 auto;
+    width: 40%;
+    max-height: 40%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
