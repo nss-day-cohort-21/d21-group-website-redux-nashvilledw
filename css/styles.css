@@ -52,6 +52,8 @@ nav a {
 	color: #d6c598;
 	border-right: 1px solid #d6c598;
 	padding-top: 15px;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
 	}
 
 nav a:hover {
@@ -87,6 +89,7 @@ nav a.active {
 	height: 150px;
 	display: block;
 	text-align: center;	
+	font-family: 'Josefin Slab', serif;
 }
 
 /**************
@@ -101,4 +104,6 @@ footer {
 	text-align: center;
 	height: 30px;
 	background-color: black;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
 }
