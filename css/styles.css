@@ -1,0 +1,271 @@
+
+.awardwrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	/*border: 5px solid black;*/
+
+
+}
+
+.awardbox {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	margin-right: 10%;
+	padding: 10px;
+	border: 2px solid white;
+	height: 400px;
+	width: 80%;
+	flex-direction: column;
+	text-align: center;
+	color: yellow;
+	box-shadow: 5px 5px 2px #ffcc00;
+
+}
+
+=======
+/**************
+	Fonts
+
+font-family: 'Josefin Slab', serif;
+font-family: 'Adamina', serif;
+
+***************/
+/**************
+	Colors
+Background:; Black
+Fonts and Borders: #d6c598
+Dimure text: color: rgba(236, 236, 236, .7);
+
+***************/
+
+/**************
+	Main
+***************/
+
+body {
+	margin: 0;
+	padding: 0;
+/*	background-color: black; */
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/**************
+	Navigation
+***************/
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	height: 50px;
+	border-bottom: 1px solid #d6c598;
+	background-color: black;
+}
+
+nav a {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: #d6c598;
+	border-right: 1px solid #d6c598;
+	padding-top: 15px;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
+	}
+
+nav a:hover {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #d6c598;
+	border-right: 1px solid #d6c598;
+	}
+nav a.active {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #d6c598;
+	border-right: 1px solid #d6c598;
+	}
+
+/**************
+	Section
+***************/
+
+.sectionBody {
+  display: flex;
+	background-color: black;
+
+}
+.homeInfo {
+	margin-top: -200px;
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7
+		);
+	width: 100%;
+	height: 150px;
+	display: block;
+	text-align: center;	
+	font-family: 'Josefin Slab', serif;
+}
+.employeeCard{
+	font-family: 'Josefin Slab', serif;
+	margin: 0 40px 20px;
+	border-bottom: 1px solid #d6c598;
+}
+
+.employeeCard h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.employeeCard h4 {
+	font-size: 2em;
+	color: #d6c598;
+	margin: 10px 0;
+}
+
+.employeeCard p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.employeeCard img {
+	display: block;
+	margin: 0 auto;
+}
+.sectionBody {
+	font-family: 'Josefin Slab', serif;
+
+}
+.sectionBody h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+.sectionBody p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+
+.sectionBody img {
+	display: block;
+	margin: 0 auto;
+}
+.mission {
+	font-family: 'Josefin Slab', serif;
+
+}
+.mission h1{
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.mission p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.mission img {
+	display: block;
+	margin: 0 auto;
+}
+/**************
+	footer
+***************/
+
+footer {
+	clear: both;
+	display: block;
+	color: #d6c598;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	background-color: black;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
+
+/******************
+   Employee Page
+******************/
+
+.employeeCard {
+    border: 2px solid beige;
+    border-radius: 30px;
+    margin-top: 2%;
+    background-color: burlywood;
+}
+.employeeCard li {
+    margin: 2%;
+    display: flex;
+    flex-flow: column;
+    background-color: beige;
+    border-radius: 11px;
+    box-shadow: 1px 1px 5px 1px;
+    max-width: 80%;
+    font-size: 1.1em
+}
+.employeeCard h2 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+.employeeCard img {
+    margin: 40px auto 0 auto;
+    width: 40%;
+    max-height: 40%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 400px;
+}
+.employeeCard h4 {
+    text-align: center;
+    padding: 0;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+.employeeCard p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em
+}
+
+/****************
+    Mission
+****************/
+.mission {
+    background-color: bisque;
+}
+.mission h1 {
+    text-align: center;
+}
+.mission p {
+    text-align: center;
+}
+.mission img {
+    width: 100%;
+}
+
