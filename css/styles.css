@@ -91,7 +91,71 @@ nav a.active {
 	text-align: center;	
 	font-family: 'Josefin Slab', serif;
 }
+.employeeCard{
+	font-family: 'Josefin Slab', serif;
+	margin: 0 40px 20px;
+	border-bottom: 1px solid #d6c598;
+}
 
+.employeeCard h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.employeeCard h4 {
+	font-size: 2em;
+	color: #d6c598;
+	margin: 10px 0;
+}
+
+.employeeCard p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.employeeCard img {
+	display: block;
+	margin: 0 auto;
+}
+.sectionBody {
+	font-family: 'Josefin Slab', serif;
+
+}
+.sectionBody h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+.sectionBody p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+
+.sectionBody img {
+	display: block;
+	margin: 0 auto;
+}
+.mission {
+	font-family: 'Josefin Slab', serif;
+
+}
+.mission h1{
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.mission p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.mission img {
+	display: block;
+	margin: 0 auto;
+}
 /**************
 	footer
 ***************/
