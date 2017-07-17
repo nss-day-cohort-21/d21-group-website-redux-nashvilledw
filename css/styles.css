@@ -109,3 +109,19 @@ sectionBody {
     text-align: center;
     font-size: 1.2em
 }
+
+/****************
+    Mission
+****************/
+.mission {
+    background-color: bisque;
+}
+.mission h1 {
+    text-align: center;
+}
+.mission p {
+    text-align: center;
+}
+.mission img {
+    width: 100%;
+}
