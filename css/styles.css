@@ -1,0 +1,61 @@
+/**************
+	Main
+***************/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	display: block;
+	color: e3e3e3;
+	width: 100%;
+	text-align: center;
+	color: #d6c598;
+	height: 10%;
+}
+/**************
+	Navigation
+***************/
+nav {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	width: 100%;
+	justify-content: center;
+	height: 30px;
+	border-bottom: 1px solid #d6c598;
+	padding-top: 10px;
+
+}
+
+nav a {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: #d6c598;
+	border-right: 1px solid #d6c598;
+	}
+
+/**************
+	Section
+***************/
+sectionBody {
+	display: flex;
+}
+.homePara {
+	color: e3e3e3;
+	font-size: .8em;
+	width: 100%;
+	justify-content: center;
+}
+
+/**************
+	footer
+***************/
