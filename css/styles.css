@@ -1,3 +1,33 @@
+
+.awardwrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	/*border: 5px solid black;*/
+
+
+}
+
+.awardbox {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	margin-right: 10%;
+	padding: 10px;
+	border: 2px solid white;
+	height: 400px;
+	width: 80%;
+	flex-direction: column;
+	text-align: center;
+	color: yellow;
+	box-shadow: 5px 5px 2px #ffcc00;
+
+}
+
+=======
 /**************
 	Fonts
 
@@ -16,6 +46,7 @@ Dimure text: color: rgba(236, 236, 236, .7);
 /**************
 	Main
 ***************/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -76,9 +107,11 @@ nav a.active {
 /**************
 	Section
 ***************/
+
 .sectionBody {
-	height: 100%;
+  display: flex;
 	background-color: black;
+
 }
 .homeInfo {
 	margin-top: -200px;
@@ -235,3 +268,4 @@ footer {
 .mission img {
     width: 100%;
 }
+
