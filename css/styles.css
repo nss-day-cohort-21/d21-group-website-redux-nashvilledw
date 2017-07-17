@@ -24,10 +24,7 @@
 	text-align: center;
 	border-radius: 5px;
 	box-shadow: 5px 5px 2px #ffcc00;
-
 }
-
-=======
 /**************
 	Fonts
 
@@ -50,7 +47,6 @@ Dimure text: color: rgba(236, 236, 236, .7);
 body {
 	margin: 0;
 	padding: 0;
-/*	background-color: black; */
 }
 
 header {
@@ -62,7 +58,6 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
 /**************
 	Navigation
 ***************/
@@ -109,12 +104,12 @@ nav a.active {
 ***************/
 
 .sectionBody {
-  display: flex;
+	height: 100%;
 	background-color: black;
-
 }
+
 .homeInfo {
-	margin-top: -200px;
+	margin-top: -150px;
 	font-size: 1.4em;
 	color: rgba(236, 236, 236, .7
 		);
@@ -160,6 +155,12 @@ nav a.active {
 	color: #d6c598;
 	margin: 0;
 }
+
+.sectionBody h3 {
+	font-size: 2em;
+	color: #d6c598;
+	margin: 0;
+}
 .sectionBody p {
 	font-size: 1.4em;
 	color: rgba(236, 236, 236, .7);
@@ -189,6 +190,40 @@ nav a.active {
 	display: block;
 	margin: 0 auto;
 }
+.awardwrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	/*border: 5px solid black;*/
+
+
+}
+
+.awardbox {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	margin-right: 10%;
+	padding: 10px;
+	border: 2px solid white;
+	height: 400px;
+	width: 80%;
+	flex-direction: column;
+	text-align: center;
+	color: yellow;
+	box-shadow: 5px 5px 2px #ffcc00;
+
+}
+
+.historyBox {
+	margin: 0 30px;
+	padding: 0 30px;
+	width: 80%;
+	height: 900px;
+}
 /**************
 	footer
 ***************/
@@ -203,6 +238,7 @@ footer {
 	background-color: black;
 	font-family: 'Josefin Slab', serif;
 	letter-spacing: 2px;
+	}
 
 /******************
    Employee Page
@@ -211,9 +247,10 @@ footer {
 .employeeCard {
     border: 2px solid beige;
     border-radius: 30px;
-    margin-top: 2%;
-    background-color: burlywood;
-}
+    padding: 10px 40px 40px 40px;
+    width: 60%;
+    margin: auto;
+	}
 .employeeCard li {
     margin: 2%;
     display: flex;
@@ -222,7 +259,7 @@ footer {
     border-radius: 11px;
     box-shadow: 1px 1px 5px 1px;
     max-width: 80%;
-    font-size: 1.1em
+    font-size: 1.1em;
 }
 .employeeCard h2 {
     margin: 0;
@@ -252,12 +289,18 @@ footer {
     text-align: center;
     font-size: 1.2em
 }
-
+.jobListings {
+	margin: 0 10px;
+}
+.indivJobList {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d6c598;
+}
 /****************
     Mission
 ****************/
 .mission {
-    background-color: bisque;
+	margin: 0 20px;
 }
 .mission h1 {
     text-align: center;
@@ -267,5 +310,59 @@ footer {
 }
 .mission img {
     width: 100%;
+    border-radius: 50px;
 }
 
+/******************
+     products
+******************/
+.watchBody{
+}
+#watches {
+/*   border: 2px solid #d6c598;
+    border-radius: 30px; */
+    background-color: Black;
+    color: #d6c598;
+    font-family: 'Josefin Slab', serif;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 0;
+}
+#watches li {
+	margin: auto;
+	width: 80%;
+    display: flex;
+    flex-flow: column;
+    background-color: Black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px;
+    font-size: 1.1em;
+    color: rgba(236, 236, 236, .7);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#watches img {
+    margin: auto;
+    width: 40%;
+    max-height: 40%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.watchHeader {
+	color: #d6c598;
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.watchPrice{
+	font-size: 2em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.homeImage {
+
+}
