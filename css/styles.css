@@ -1,3 +1,4 @@
+
 .awardwrapper {
 	display: flex;
 	flex-direction: column;
@@ -26,10 +27,30 @@
 
 }
 
+=======
+/**************
+	Fonts
+
+font-family: 'Josefin Slab', serif;
+font-family: 'Adamina', serif;
+
+***************/
+/**************
+	Colors
+Background:; Black
+Fonts and Borders: #d6c598
+Dimure text: color: rgba(236, 236, 236, .7);
+
+***************/
+
+/**************
+	Main
+***************/
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: black;
+/*	background-color: black; */
 }
 
 header {
@@ -37,27 +58,22 @@ header {
 	padding: 0;
 }
 
-footer {
-	display: block;
-	color: e3e3e3;
-	width: 100%;
-	text-align: center;
-	color: #d6c598;
-	height: 10%;
+p {
+	margin: 0;
+	padding: 0;
 }
+
 /**************
 	Navigation
 ***************/
 nav {
 	display: flex;
 	flex-direction: row;
-	background-color: black;
 	width: 100%;
 	justify-content: center;
-	height: 30px;
+	height: 50px;
 	border-bottom: 1px solid #d6c598;
-	padding-top: 10px;
-
+	background-color: black;
 }
 
 nav a {
@@ -66,26 +82,127 @@ nav a {
 	text-align: center;
 	color: #d6c598;
 	border-right: 1px solid #d6c598;
+	padding-top: 15px;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
+	}
+
+nav a:hover {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #d6c598;
+	border-right: 1px solid #d6c598;
+	}
+nav a.active {
+	width: 12%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #d6c598;
+	border-right: 1px solid #d6c598;
 	}
 
 /**************
 	Section
 ***************/
 
-sectionBody {
-	display: flex;
+.sectionBody {
+  display: flex;
+	background-color: black;
+
 }
-.homePara {
-	color: e3e3e3;
-	font-size: .8em;
+.homeInfo {
+	margin-top: -200px;
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7
+		);
 	width: 100%;
-	justify-content: center;
+	height: 150px;
+	display: block;
+	text-align: center;	
+	font-family: 'Josefin Slab', serif;
+}
+.employeeCard{
+	font-family: 'Josefin Slab', serif;
+	margin: 0 40px 20px;
+	border-bottom: 1px solid #d6c598;
 }
 
+.employeeCard h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.employeeCard h4 {
+	font-size: 2em;
+	color: #d6c598;
+	margin: 10px 0;
+}
+
+.employeeCard p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.employeeCard img {
+	display: block;
+	margin: 0 auto;
+}
+.sectionBody {
+	font-family: 'Josefin Slab', serif;
+
+}
+.sectionBody h2 {
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+.sectionBody p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+
+.sectionBody img {
+	display: block;
+	margin: 0 auto;
+}
+.mission {
+	font-family: 'Josefin Slab', serif;
+
+}
+.mission h1{
+	font-size: 3em;
+	color: #d6c598;
+	margin: 0;
+}
+
+.mission p {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+}
+.mission img {
+	display: block;
+	margin: 0 auto;
+}
 /**************
 	footer
 ***************/
 
+footer {
+	clear: both;
+	display: block;
+	color: #d6c598;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	background-color: black;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
 
 /******************
    Employee Page
