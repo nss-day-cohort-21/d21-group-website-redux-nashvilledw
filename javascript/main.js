@@ -50,10 +50,14 @@ let watch = [
     image:"images/prod-watch8.png"
   } 
 ];
-
+watch.forEach(function(item){
+    document.getElementById("watches").innerHTML += `<li><img src="${item.image}"> <h1 class="watchHeader">${item.name}</h1> <h3 class="watchPrice">${item.price}</h3> ${item.description}</li>`
+});
+/*
 watch.forEach(function(item){
     document.getElementById("watches").innerHTML += `<li><img src="${item.image}"</li>`
     document.getElementById("watches").innerHTML += `<h1>${item.name}</h1>`
     document.getElementById("watches").innerHTML += `<li>${item.price}</li>`
     document.getElementById("watches").innerHTML += `<li>${item.description}</li>`
 });
+*/
