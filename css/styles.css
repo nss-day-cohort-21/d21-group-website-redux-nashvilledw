@@ -16,13 +16,13 @@
 	margin-bottom: 50px;
 	margin-right: 10%;
 	padding: 10px;
-	border: 10px solid black;
+	border: 2px solid white;
 	height: 400px;
 	width: 80%;
 	flex-direction: column;
-	border: 5px solid black;
 	text-align: center;
 	color: yellow;
+	box-shadow: 5px 5px 2px #ffcc00;
 
 }
 
