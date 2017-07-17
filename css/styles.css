@@ -1,33 +1,3 @@
-
-.awardwrapper {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-	/*border: 5px solid black;*/
-
-
-}
-
-.awardbox {
-	margin-top: 50px;
-	margin-left: 10%;
-	margin-bottom: 50px;
-	margin-right: 10%;
-	padding: 10px;
-	border: 2px solid white;
-	height: 400px;
-	width: 80%;
-	flex-direction: column;
-	text-align: center;
-	color: yellow;
-	box-shadow: 5px 5px 2px #ffcc00;
-
-}
-
-=======
 /**************
 	Fonts
 
@@ -50,7 +20,6 @@ Dimure text: color: rgba(236, 236, 236, .7);
 body {
 	margin: 0;
 	padding: 0;
-/*	background-color: black; */
 }
 
 header {
@@ -109,10 +78,10 @@ nav a.active {
 ***************/
 
 .sectionBody {
-  display: flex;
+	height: 100%;
 	background-color: black;
-
 }
+
 .homeInfo {
 	margin-top: -200px;
 	font-size: 1.4em;
@@ -160,6 +129,12 @@ nav a.active {
 	color: #d6c598;
 	margin: 0;
 }
+
+.sectionBody h3 {
+	font-size: 2em;
+	color: #d6c598;
+	margin: 0;
+}
 .sectionBody p {
 	font-size: 1.4em;
 	color: rgba(236, 236, 236, .7);
@@ -189,6 +164,33 @@ nav a.active {
 	display: block;
 	margin: 0 auto;
 }
+.awardwrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	/*border: 5px solid black;*/
+
+
+}
+
+.awardbox {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	margin-right: 10%;
+	padding: 10px;
+	border: 2px solid white;
+	height: 400px;
+	width: 80%;
+	flex-direction: column;
+	text-align: center;
+	color: yellow;
+	box-shadow: 5px 5px 2px #ffcc00;
+
+}
 /**************
 	footer
 ***************/
@@ -203,7 +205,8 @@ footer {
 	background-color: black;
 	font-family: 'Josefin Slab', serif;
 	letter-spacing: 2px;
-}
+	}
+
 /******************
    Employee Page
 ******************/
@@ -252,7 +255,13 @@ footer {
     text-align: center;
     font-size: 1.2em
 }
-
+.jobListings {
+	margin: 0 10px;
+}
+.indivJobList {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d6c598;
+}
 /****************
     Mission
 ****************/
