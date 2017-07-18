@@ -209,8 +209,8 @@ nav a.active {
 	margin-right: 10%;
 	padding: 10px;
 	border: 2px solid white;
-	height: 400px;
-	width: 80%;
+	height: 30%;
+	width: 30%;
 	flex-direction: column;
 	text-align: center;
 	color: yellow;
