@@ -330,7 +330,7 @@ footer {
 }
 #watches li {
 	margin: auto;
-	width: 80%;
+	width: 50%;
     display: flex;
     flex-flow: column;
     background-color: Black;
