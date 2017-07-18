@@ -23,7 +23,7 @@
 	flex-direction: column;
 	text-align: center;
 	border-radius: 5px;
-	box-shadow: 5px 5px 2px #ffcc00;
+	box-shadow: 5px 5px 2px #d6c598;
 }
 /**************
 	Fonts
@@ -208,13 +208,13 @@ nav a.active {
 	margin-bottom: 50px;
 	margin-right: 10%;
 	padding: 10px;
-	border: 2px solid white;
+	border: 2px solid #d6c598;
 	height: 30%;
 	width: 30%;
 	flex-direction: column;
 	text-align: center;
 	color: yellow;
-	box-shadow: 5px 5px 2px #ffcc00;
+	box-shadow: 5px 5px 2px #d6c598;
 
 }
 
