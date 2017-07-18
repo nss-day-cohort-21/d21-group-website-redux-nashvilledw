@@ -26,7 +26,7 @@ let jobs = [
 ];
 
 jobs.forEach(function(item){
-  document.getElementById("openJobs").innerHTML += `<li><h2>${item.name}</h2></li> <ul><li>${item.description}</li></ul> <ul><li><a href="apply.html">Click To Apply</a></li></ul>`
+  document.getElementById("openJobs").innerHTML += `<li><h2 class="watchHeader">${item.name}</h2></li> <ul><li class="jobDescript">${item.description}</li></ul> <ul><li class="applybox"><a href="apply.html">Click To Apply</a></li></ul>`
 });
 
 

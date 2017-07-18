@@ -363,6 +363,35 @@ footer {
 	margin: 0;
 }
 
-.homeImage {
+.jobDescript {
+	font-size: 1.4em;
+	color: rgba(236, 236, 236, .7);
+	margin-bottom: 7px;
+	list-style-type: none;
+}
+.applybox {
+	margin: 20px auto;
+	width: 250px;
 
+
+}
+
+.applybox a {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 1.4em;
+	color: #d6c598;
+	border: 2px solid #d6c598;
+	padding: 5px;
+	text-align: center;
+}
+.applybox a:hover {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 1.4em;
+	border: 2px solid #d6c598;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	background-color: #d6c598;
 }
