@@ -395,3 +395,7 @@ footer {
 	color: black;
 	background-color: #d6c598;
 }
+
+.jobsPic {
+	border-radius: 10px;
+}
